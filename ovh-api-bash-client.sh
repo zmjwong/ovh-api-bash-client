@@ -24,7 +24,7 @@ CURRENT_PATH="$(pwd)"
 # THESE VARS WILL BE USED LATER
 METHOD="GET"
 URL="/me"
-TARGET="EU"
+TARGET="CA"
 TIME=""
 SIGDATA=""
 POST_DATA=""
@@ -133,7 +133,7 @@ help()
     echo "  --url <url>         : the API URL to call, for example /domains (default is /me)"
     echo "  --method <method>   : the HTTP method to use, for example POST (default is GET)"
     echo "  --data <JSON data>  : the data body to send with the request"
-    echo "  --target <$( echo ${TARGETS[@]} | sed 's/\s/|/g' )>    : the target API (default is EU)"
+    echo "  --target <$( echo ${TARGETS[@]} | sed 's/\s/|/g' )>    : the target API (default is CA)"
     echo "  --init              : to initialize the consumer key"
     echo "  --initApp           : to initialize the API application"
     echo
